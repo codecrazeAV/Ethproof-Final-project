@@ -1,9 +1,10 @@
-<h1>Token creation </h1>
+<h1>Token creation on local hardhat network </h1>
 
-This Solidity program is a simple "Token creation" program that demonstrates the basic syntax and functionality of a Token which can be deployed with the help of a smart contract. The purpose of this program is to serve as a starting point for those who are new to creating Tokens and want to get a feel for how it works.
+This Solidity program is a simple "Token creation" program that demonstrates the basic syntax and functionality of a Token which can be deployed with the help of a smart contract on a local hardhat network. The purpose of this program is to write a contract for a token on a local hardhat network and make transactions 
+via Metamask wallet connected to the local hardhat network.
 
 <h2>Description</h2>
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. This program has a contract named MyToken. The contract has a token with 3 most basic functions- Transfer, Burn and Mint. Mint function will increment token amount in an account balance of the address specified and add it to the total supply while burn function will destroy the mentioned amount of tokens from the total supply. Transfer enables a user to tranfer any amount of token from his account address to another. Burn and Transfer function can be performed by any user, however the mint function can only be performed by the token owner. This program serves as a simple and straightforward Token creation, and can be used as a stepping stone for more complex tokens in the future.
+This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. This program has a contract named MyToken. The contract has a token with 3 most basic functions- Transfer, Burn and Mint. Mint function will increment token amount in an account balance of the address specified and add it to the total supply while burn function will destroy the mentioned amount of tokens from the total supply. Transfer enables a user to tranfer any amount of token from his account address to another. Burn and Transfer function can be performed by any user, however the mint function can only be performed by the token owner. The token is created via a smart contract on a local hardhat network. This program serves as a simple and straightforward Token creation, and making transactions with the token on Metamask wallet. This can be used as a stepping stone for more complex tokens in the future.
 
 <h2>Getting Started</h2>
 <h3>Executing program</h3>
