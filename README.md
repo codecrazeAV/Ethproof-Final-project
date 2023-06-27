@@ -29,14 +29,17 @@ npx hardhat node
 6. Now, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "Token" contract from the dropdown 
    menu, and set the token name, symbol and initial balane for your token and then click on the "Deploy" button.
 
-7. Once the contract is deployed, you can interact with it by calling the Burn, Mint and Transfer functions. Click on TotSupl to see the total supply which should 
+7. Once the contract is deployed, you can interact with it by calling the Burn, Mint and Transfer functions. Click on TotSupl to see the total supply which
+8. should 
    now be set to 1000. Similary you can click on Name, Owner and Symbol to see the token name Token symbol and Owner address respectively. Token address
    should be same as the address shown in your metamask wallet.
 
-Now call functions one by one check check balance of an address, value of total supply and mint coin to some address. You can import another account
-from your local hardhat network and try to run those functions. Before that you should transfer some token to this address so that this account 
-address have enough token balane to interact with it. If it doesn't then it will throw you an error and probably you have to refresh the whole page and start 
-the process again from beginning. While running those functions you will notice you can only run burn and transfer function with this account and if you try to run mint function it will throw you an error. It is just because of the implmentation of the modifier OnlyOwner where it checks weather this account address is the contract owner or not.
+Now call functions one by one check balance of an address, value of total supply and mint coin to some address, burn tokens or tranfer token to some address. 
+You can import another account from your local hardhat network and try to run those functions. Before that you should transfer some token to this address so 
+that this account address have enough token balane to interact with it. If it doesn't then it will throw you an error and probably you have to refresh the 
+whole page and start the process again from beginning. While running those functions you will notice you can only run burn and transfer function with this 
+account and if you try to run mint function it will throw you an error. It is just because of the implmentation of the modifier OnlyOwner where it checks 
+weather this account address is the contract owner or not.
 
 <h2>Author</h2>
 Anjan Gorai
