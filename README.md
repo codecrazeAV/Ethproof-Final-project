@@ -6,6 +6,9 @@ via Metamask wallet connected to the local hardhat network.
 <h2>Description</h2>
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. This program has a contract named MyToken. The contract has a token with 3 most basic functions- Transfer, Burn and Mint. Mint function will increment token amount in an account balance of the address specified and add it to the total supply while burn function will destroy the mentioned amount of tokens from the total supply. Transfer enables a user to tranfer any amount of token from his account address to another. Burn and Transfer function can be performed by any user, however the mint function can only be performed by the token owner. The token is created via a smart contract on a local hardhat network. This program serves as a simple and straightforward Token creation, and making transactions with the token on Metamask wallet. This can be used as a stepping stone for more complex tokens in the future.
 
+## Video Representation
+https://drive.google.com/file/d/1ezGp_p6d8PmTwR8JPNam2keBBwZFuUS3/view?usp=sharing
+
 <h2>Getting Started</h2>
 <h3>Executing program</h3>
 1. To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
